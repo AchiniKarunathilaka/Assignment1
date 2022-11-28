@@ -1,0 +1,31 @@
+---
+title: "Assignment1"
+author: "Achini Karunathilaka"
+date: "2022-11-28"
+output:
+
+bookdown::word_document2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(fig.align = "center")
+```
+
+
+```{r cars}
+summary(cars)
+```
+
+## Assigment1 Plots
+
+You can also embed plots, for example:
+
+```{r pressure,fig.height=7, echo=Ture}
+plot(pressure)
+```
+
+
+```{r}
+write.csv(cars,file="Data/cars.csv")
+```
+
